@@ -1,7 +1,7 @@
 # MMT Senior Server Side .Net : Technical Test
 
 * Project created on netcoreapp3.1
-* Solution has API, Common, Core, Data
+* Solution has API, Common, Core and Data
 * API is light weight to receive and respond to the request.
 * Common proj has genric needs between all projects in sln.
 * Core is responsible to talk to third party api's.
