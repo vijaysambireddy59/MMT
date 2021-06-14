@@ -11,8 +11,8 @@
 
 * To catch global exception a inline middleware is been added in startup file, this can be moved to a new files too.
 * appsettings.json has all required configs i have't sepertated to dev or prod.
-* In Appsettings json, UserAPIsettings has both API and UserAPI configs like timeout and api can be seperated.
-* Internal ILogger is been used is very few places just to show how i can do. We can have somethirdparty too like nlog with a customer logger class for ease regex.
+* In Appsettings json, UserAPIsettings has both API and UserAPI configs like timeout and apikey can be seperated.
+* Internal ILogger is been used in very few places just to show how it can be done. We can have somethirdparty too like nlog with a customer logger class for ease regex.
 * Haven't added any unit/integration tests i believe the ask is for api's only.
 * All Entities are written not used any EF tools to auto generate.
 * Haven't used any mappers.
